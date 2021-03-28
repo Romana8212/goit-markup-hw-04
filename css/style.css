@@ -199,6 +199,16 @@ image {
 /*  HERO */
 .hero {
   background: #2f303a;
+  background-image: linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ),
+  url(../images/banner/Img-bac-hero.jpg);
+background-repeat: no-repeat;
+max-width: 1600px;
+text-align: center;
+
   
 }
 

@@ -354,6 +354,57 @@ text-align: center;
 }
 /* END TEAM  */
 
+/*  Постійні клієнти */
+
+.client {
+  padding: 94px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  text-align: center;
+}
+.title-client {
+  margin-bottom: 50px;
+  font-family: "roboto";
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--black-text);
+  letter-spacing: 0.03em;
+  line-height: 1.16;
+}
+.ul-client {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.client-link {
+  fill: var(--social-networks);
+  background-color: transparent;
+}
+.con-client-svg {
+  width: 170px;
+  height: 90px;
+  border-radius: 4px;
+  border: 2px solid currentColor;
+  color: var(--social-networks);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.client-svg {
+  fill: currentColor;
+}
+
+.client-link :hover {
+  color: #ffffff;
+  background-color: var(--blue-text);
+}
+
+
 /* footer */
 .footer {
   background-color: var(--dark-grey-bac);

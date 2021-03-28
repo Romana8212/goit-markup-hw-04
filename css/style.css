@@ -447,6 +447,23 @@ text-align: center;
   font-style: normal;
 }
 
+.footer-title {
+  color: var(--white-text);
+  text-transform: uppercase;
+
+  font-family: "roboto";
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.16;
+}
+
+
+.con-footer-link {
+  width: 206px;
+}
+
+
 /* END FOOTER */
 
 /* =============== END INDEX =============== */
